@@ -15,5 +15,8 @@ sudo apt install python3.10 python3.10-venv python3.10-dev -y
 
 
 
-sudo apt update
-sudo apt install -y software-properties-common
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y build-essential libffi-dev libssl-dev \
+    zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
+    libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev \
+    liblzma-dev libgdbm-dev libnss3-dev libncurses5-dev
